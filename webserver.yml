@@ -1,6 +1,6 @@
 ---
-- hosts: {{hosts}}
-  user: {{user}}
+- hosts: "{{servers}}"
+  user: "{{user}}"
   become: true
   roles: 
     - webserver 

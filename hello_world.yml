@@ -1,7 +1,7 @@
 ---
 - name: Hello, world
-  hosts: {{hosts}}
-  user: {{user}}
+  hosts: "{{servers}}"
+  user: "{{user}}"
   tasks:
   - name: Hello, world
     shell: echo "Hello, world" 
