@@ -1,0 +1,8 @@
+---
+- name: Hello, world
+  hosts: {{hosts}}
+  user: {{user}}
+  tasks:
+  - name: Hello, world
+    shell: echo "Hello, world" 
+ 
